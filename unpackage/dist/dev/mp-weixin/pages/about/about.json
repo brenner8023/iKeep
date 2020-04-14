@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "com-timeput": "/components/com-timeput",
+    "com-header": "/components/com-header"
+  }
+}

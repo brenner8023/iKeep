@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "com-header": "/components/com-header",
+    "com-timer": "/components/com-timer",
+    "com-task": "/components/com-task"
+  }
+}

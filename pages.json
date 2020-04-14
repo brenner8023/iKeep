@@ -1,0 +1,37 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index"
+		},
+		{
+			"path": "pages/about/about"
+		},
+		{
+			"path":"pages/index/taskadd",
+			"navigationBarTitleText": "添加事项"
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "#fff",
+		"navigationBarTitleText": "iKeep时间投资",
+		"navigationBarBackgroundColor": "#0161b8",
+		"backgroundColor": "#f8f8f8"
+	},
+	"tabBar": {
+		"selectedColor":"#0161b8",
+		"list": [
+			{
+				"pagePath":"pages/index/index",
+				"iconPath":"static/index.png",
+				"selectedIconPath":"static/index2.png",
+				"text": "首页"
+			},
+			{
+				"pagePath":"pages/about/about",
+				"iconPath":"static/about.png",
+				"selectedIconPath":"static/about2.png",
+				"text": "我的"
+			}
+		]
+	}
+}
